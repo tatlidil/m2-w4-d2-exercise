@@ -9,9 +9,12 @@
 <body>
 
    <div id = "databinding">
-      <div>
+      <div v-bind:style = "styleobj" 
+      v-on:mouseover = "changebgColor" 
+      v-on:mouseout = "originalColor">
       </div>
-   </div>
+    </div>
+    
    
    <script>
 
